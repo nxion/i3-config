@@ -24,15 +24,8 @@ imagemagick
 scrot
 awk
 utils-linux
-<<<<<<< HEAD:i3_setup.md
-rxvt-unicode-256color
 
 ###Download fonts for i3status bar
-=======
-```
-####Download fonts for i3status bar
->>>>>>> 5c1622d9a0b69d184a2b63bc2abca9771f0c38e2:readme.md
-
 ```sh
 # As of wrighting this, the fons package was 4.6.3. Adjust accordingly
 wget http://fontawesome.io/assets/font-awesome-4.6.3.zip
