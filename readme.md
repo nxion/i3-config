@@ -24,6 +24,7 @@ imagemagick
 scrot
 awk
 utils-linux
+```
 
 ###Download fonts for i3status bar
 ```sh
