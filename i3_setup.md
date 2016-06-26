@@ -23,6 +23,7 @@ imagemagick
 scrot
 awk
 utils-linux
+rxvt-unicode-256color
 
 ###Download fonts for i3status bar
 

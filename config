@@ -151,6 +151,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Window border style: normal: border normal, with window title bar;
+# none: no border or window title bar; 1pixel: 1 pixel border.
+new_window 1pixel
+bindsym $mod+t border normal
+bindsym $mod+y border 1pixel
+bindsym $mod+u border none
+
 #Volume Control
 bindsym $mod+F11 exec amixer set Master 5%-
 bindsym $mod+F12 exec amixer set Master 5%+
