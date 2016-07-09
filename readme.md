@@ -52,7 +52,12 @@ mkdir /usr/local/bin/lock; mv lock lockdark.png lock.png /usr/local/bin/lock/
 # Change ownership of the script (not sure if needed yet)
 chown root:root /usr/local/bin/lock/lock
 ```
-
+# Add Powerline fonts for later use
+```sh
+git clone https://github.com/powerline/fonts.git
+cd fonts/
+sudo cp -R . /usr/share/fonts/
+```
 ####Config file location (Ubuntu specific?)
 ```sh
 ~/.config/i3/config
