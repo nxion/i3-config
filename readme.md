@@ -15,15 +15,16 @@ screenfetch
 network-manager
 xserver-xorg-input-all 
 xserver-xorg-video-all
-lxdm
+slim
 network-manager
 build-essential
 software-properties-common
 unzip
 imagemagick
 scrot
-awk
-utils-linux
+util-linux
+glances
+ranger
 ```
 
 ###Download fonts for i3status bar
@@ -42,7 +43,7 @@ mv font-awesome-4.6.3 /usr/share/fonts/
 
 ```sh
 #Clone repo
-git clone https://github.com/meskarune/i3lock
+git clone https://github.com/meskarune/i3lock-fance
 
 #Move script to /usr/local/bin
 cd i3lock-fancy
