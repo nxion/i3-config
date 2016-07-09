@@ -9,7 +9,7 @@ xautolock
 compton
 nitrogen
 dmenu
-rxvt-unicode
+rcvt-unicode-256color
 suckless-tools
 screenfetch
 network-manager
