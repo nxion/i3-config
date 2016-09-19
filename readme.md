@@ -9,7 +9,7 @@ xautolock
 compton
 nitrogen
 dmenu
-rcvt-unicode-256color
+rxvt-unicode-256color
 suckless-tools
 screenfetch
 network-manager
@@ -25,6 +25,10 @@ scrot
 util-linux
 glances
 ranger
+```
+###Fix headphones 
+```sh
+cp ~/.config/i3/alsa-base.conf /etc/modprobe.d/ 
 ```
 
 ###Download fonts for i3status bar
